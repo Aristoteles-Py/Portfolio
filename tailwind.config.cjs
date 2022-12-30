@@ -8,6 +8,12 @@ module.exports = {
       backgroundImage:{
         icons: 'url(./src/assets/doodleitems.svg)',
       },
+      backgroundColor:{
+        gold:{
+          100:'#BF7506',
+          200:'#DD9C3C',
+        },
+      },
       textColor:{
         gold:{
           100:'#BF7506',

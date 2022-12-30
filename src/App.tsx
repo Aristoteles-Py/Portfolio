@@ -1,3 +1,4 @@
+import Footer from './components/Footer';
 import Header from './components/Header';
 import Im from './components/Im';
 import TalkMy from './components/TalkMy';
@@ -10,6 +11,7 @@ function App(){
             <Im/>
             <WorkCard/>
             <TalkMy/>
+            <Footer/>
         </>
     )
 }
