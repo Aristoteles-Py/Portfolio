@@ -5,7 +5,7 @@ import eventPlataform from "../assets/event-plataform.jpeg"
 
 function WorkCard(){
     return (
-        <div className="w-[1100px] h-screen flex justify-center gap-20 mt-10">
+        <div className="w-[1100px] flex justify-center gap-20 mt-6">
             <div className="w-[400px]">
                 {/* card img */}
                 <div>
