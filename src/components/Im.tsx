@@ -38,6 +38,7 @@ function Im() {
                     <li className="border-2 border-gold-100 px-1 rounded text-sm">HTML</li>
                     <li className="border-2 border-gold-100 px-1 rounded text-sm">CSS</li>
                     <li className="border-2 border-gold-100 px-1 rounded text-sm">JavaScript</li>
+                    <li className="border-2 border-gold-100 px-1 rounded text-sm">TypeScript</li>
                     <li className="border-2 border-gold-100 px-1 rounded text-sm">Node</li>
                     <li className="border-2 border-gold-100 px-1 rounded text-sm">npm</li>
                     <li className="border-2 border-gold-100 px-1 rounded text-sm">Reactjs</li>
