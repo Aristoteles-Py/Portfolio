@@ -1,40 +1,49 @@
-import myPhoto from '../assets/myPhoto.svg';
+import myPhoto from '../assets/myPhoto.jpg';
 import assinatura from '../assets/assinatura.svg';
 
 
 function Im() {
     return(
-        <div className="w-full">
-            <div className="flex mt-11 ml-[110px] w-[1100px]">
-                <img className="w-[378px] h-[440px]" src={myPhoto} alt="" />
-                <div className="flex flex-col w-80 ml-5 mt-4">
-                    <span>
+        <div className="w-fll mt-5">
+            <div className="flex gap-7 justify-center  max-[650px]:h-[400px] max-[650px]:w-[400px]">
+
+                <img className="h-[400px] w-[400px] rounded max-[650px]:absolute" 
+                src={myPhoto} 
+                alt=""
+                />
+
+                <div className="w-[450px] max-[650px]:relative">
+
+                    <span className="">
                         Nice to meet you,
                     </span>
-                    <strong>
+                    <strong className="">
                         I’m Aristóteles Alves
                     </strong>
-                    <p>
+                    <p className="">
                         Sou um jovem estudante de sistema de informação 
                         na universidade Centro Universitário Paraíso (UNIFAP), 
                         apaixonado pelo desenvolvimento front-end.
                     </p>
-                    <strong className="text-gold-100 my-1">
+                    <div className='min-[650px]:hidden'>
+                    </div>
+                    <strong className="max-[650px]:hidden">
                         Code, Design, Learn and coffee
                     </strong>
-                    <p>
+                    <p className="max-[650px]:hidden">
                         Frontend is my true passion and I really enjoy the whole process of creating UIs, 
                         from the first brainstorming, wireframes, mockups, design, 
                         all the way until the final product.
                     </p>
-                    <img className="w-[210px] h-[75px]" src={assinatura} alt="" />
+                    <img className="max-[650px]:hidden" src={assinatura} alt="" />
                 </div>
             </div>
-            <div className="ml-[110px] mt-4">
-                <strong>
+
+            <div className="w-full mt-4 pl-60 max-[650px]:pl-0">
+                <strong className="">
                     Minhas experiências inclui, mas não se limita:
                 </strong>
-                <ul className="flex gap-3 mt-1">
+                <ul className="flex flex-wrap gap-3 mt-1" >
                     <li className="border-2 border-gold-100 px-1 rounded text-sm">HTML</li>
                     <li className="border-2 border-gold-100 px-1 rounded text-sm">CSS</li>
                     <li className="border-2 border-gold-100 px-1 rounded text-sm">JavaScript</li>
