@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    @apply bg-white flex justify-center;
+
+body, html{
+    @apply bg-white w-full ;
 }

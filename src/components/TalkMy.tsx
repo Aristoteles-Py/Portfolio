@@ -4,7 +4,7 @@ import Send from '../assets/send.svg'
 
 function TalkMy(){
     return(
-        <form className="h-[500px] flex justify-end bg-icons gap-5 mt-10">
+        <form className="h-[500px] w-full flex justify-end bg-icons gap-5 mt-10">
             <div className="flex flex-col">
                 <div className="flex flex-col gap-4 mt-20 w-[457px]">
 

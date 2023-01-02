@@ -4,7 +4,7 @@ import CardProject from "./CardProject";
 
 function WorkCard(){
     return (
-        <div className="w-[1100px] flex justify-center gap-20 mt-6">
+        <div className="w-full flex justify-center gap-20 mt-6">
 
             <CardProject 
             img={calculadora}

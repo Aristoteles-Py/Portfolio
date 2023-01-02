@@ -8,10 +8,6 @@ function App(){
     return(
         <>
             <Header/>
-            <Im/>
-            <WorkCard/>
-            <TalkMy/>
-            <Footer/>
         </>
     )
 }

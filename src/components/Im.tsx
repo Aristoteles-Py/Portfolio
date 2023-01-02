@@ -4,8 +4,8 @@ import assinatura from '../assets/assinatura.svg';
 
 function Im() {
     return(
-        <div>
-            <div className="flex mt-11 ml-[110px] w-full">
+        <div className="w-full">
+            <div className="flex mt-11 ml-[110px] w-[1100px]">
                 <img className="w-[378px] h-[440px]" src={myPhoto} alt="" />
                 <div className="flex flex-col w-80 ml-5 mt-4">
                     <span>
