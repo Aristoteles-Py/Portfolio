@@ -7,6 +7,7 @@ import WorkCard from './components/WorkCard';
 function App(){
     return(
         <>
+            <Header/>
             <Im/>
         </>
     )

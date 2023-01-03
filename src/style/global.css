@@ -4,5 +4,5 @@
 
 
 body, html{
-    @apply bg-white w-full ;
+    @apply bg-white w-full scroll-smooth ;
 }

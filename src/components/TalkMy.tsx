@@ -24,7 +24,7 @@ function TalkMy(){
                      placeholder="E-mail"
                      />
 
-                    <textarea className="bg-transparent rounded border-2 border-gray-600 p-2" cols={10} rows={6} placeholder="Mensagem..."></textarea>
+                    <textarea className="bg-transparent rounded border-2 border-gray-600 p-2 resize-none" cols={10} rows={6} placeholder="Mensagem..."></textarea>
                 </div>
                 <div className="flex justify-end">
                     <button className="flex gap-1 mr-5 mt-5 border-b border-gold-100 w-[100px] justify-center items-center pb-1 hover:text-gray-500">
