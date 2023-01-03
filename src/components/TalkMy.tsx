@@ -4,9 +4,9 @@ import Send from '../assets/send.svg'
 
 function TalkMy(){
     return(
-        <form className="h-[500px] w-full flex justify-end bg-icons gap-5 mt-10">
+        <form className="h-[500px] w-full flex justify-end bg-icons gap-5 mt-10 max-[650px]:justify-center">
             <div className="flex flex-col">
-                <div className="flex flex-col gap-4 mt-20 w-[457px]">
+                <div className="flex flex-col gap-4 mt-20 w-[457px] max-[650px]:w-full">
 
                     <strong className="text-gold-100 font-bold text-3xl">I’m ready to talk...</strong>
 
@@ -32,7 +32,7 @@ function TalkMy(){
                     </button> 
                 </div>
             </div>
-            <img className="mt-24" src={maoRight} alt="" />
+            <img className="mt-24 max-[650px]:hidden" src={maoRight} alt="" />
         </form>
     )
 }

@@ -9,6 +9,9 @@ function App(){
         <>
             <Header/>
             <Im/>
+            <WorkCard/>
+            <TalkMy/>
+            <Footer/>
         </>
     )
 }

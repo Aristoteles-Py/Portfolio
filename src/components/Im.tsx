@@ -4,8 +4,8 @@ import assinatura from '../assets/assinatura.svg';
 
 function Im() {
     return(
-        <div className="w-fll mt-5 max-[650px]:p-4">
-            <div className="flex gap-7 justify-center  max-[650px]:h-[400px] max-[650px]:w-[400px] ">
+        <div className="w-fll mt-5 max-[650px]:justify-center">
+            <div className="flex gap-7 w-full justify-center">
 
                 <img className="h-[400px] w-[400px] rounded-2xl max-[650px]:absolute max-[650px]:w-[350px] max-[650px]:h-[350px] " 
                 src={myPhoto} 
@@ -37,12 +37,12 @@ function Im() {
                     <img className="max-[650px]:hidden" src={assinatura} alt="" />
 
                     
-                    <div className='min-[650px]:hidden w-[500px] h-[270px] bg-white bg-opacity-20 absolute origin-center -rotate-[18deg] z-0 -mb-28 backdrop-blur-sm'>
+                    <div className='min-[650px]:hidden w-[500px] h-[270px] bg-white bg-opacity-10 absolute origin-center -rotate-[18deg] z-0 -mb-28 backdrop-blur-sm'>
                     </div>
                 </div>
             </div>
 
-            <div className="w-full pl-60 max-[650px]:pl-0 max-[650px]:-mt-5 max-[650px]:justify-center max-[650px]:text-center">
+            <div className="w-full pl-60 max-[650px]:pl-0 max-[650px]:mt-4 max-[650px]:justify-center max-[650px]:text-center">
                 <strong className="">
                     Minhas experiências inclui, mas não se limita:
                 </strong>
