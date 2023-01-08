@@ -6,7 +6,7 @@ function Footer(){
             <div>
                 <ul className="flex gap-14 text-base font-medium mb-2 max-[650px]:gap-5">
                     <li className="hover:text-gray-600 transition-colors group">
-                        <a href="" className="flex gap-1">
+                        <a href="#home" className="flex gap-1">
                             <House
                             className="group-hover:text-amber-900"
                             size={23}/>
@@ -40,13 +40,13 @@ function Footer(){
                         </a>
                     </li>
                     <li>
-                        <a href="" className="flex gap-1">
+                        <a href="https://www.linkedin.com/in/aristoteles-aleves-de-oliveira-ab8089226/" className="flex gap-1">
                             <LinkedinLogo className="bg-gold-100 rounded-full p-2 transition-colors hover:text-blue-500 hover:bg-gold-200" 
                             size={42}/>
                         </a> 
                     </li>
                     <li>
-                        <a href="" className="flex gap-1">
+                        <a href="https://github.com/Aristoteles-Py" className="flex gap-1">
                             <GithubLogo className="bg-gold-100 rounded-full p-2 transition-colors hover:text-purple-900 hover:bg-gold-200" 
                             size={42}/>
                         </a>

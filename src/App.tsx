@@ -1,18 +1,12 @@
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Im from './components/Im';
-import TalkMy from './components/TalkMy';
-import WorkCard from './components/WorkCard';
+import { ApolloProvider } from '@apollo/client';
+import { BrowserRouter } from 'react-router-dom';
+import Rotas from './Rotas';
 
 function App(){
     return(
-        <>
-            <Header/>
-            <Im/>
-            <WorkCard/>
-            <TalkMy/>
-            <Footer/>
-        </>
+      <BrowserRouter>
+        <Rotas/>
+      </BrowserRouter>
     )
 }
 

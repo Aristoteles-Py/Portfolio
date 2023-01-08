@@ -42,7 +42,7 @@ function Im() {
                 </div>
             </div>
 
-            <div className="w-full pl-60 max-[650px]:pl-0 max-[650px]:mt-4 max-[650px]:justify-center max-[650px]:text-center max-[650px]:p-2">
+            <div className="w-full mt-3 ml-44 max-[1000px]:ml-0 max-[650px]:pl-0 max-[650px]:mt-4 max-[650px]:justify-center max-[650px]:text-center max-[650px]:p-2">
                 <strong className="">
                     Minhas experiências inclui, mas não se limita:
                 </strong>
