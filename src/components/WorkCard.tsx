@@ -23,7 +23,7 @@ function WorkCard(){
                 title="Event Plataform"
                 description="Esse projeto foi desenvolvido junto com Diego Fernandes da Rocketseat no Ignite Lab, colocando em pratica meus conhecimentos com GraphQL e TailwindCSS"
                 skils={['React','TypeScript','vite','GraphQL','TailwindCSS']}
-                demo="https://ignite-lab-event-plataform-iusi-git-main-aristoteles-py.vercel.app/"
+                demo="https://ignite-lab-event-plataform-ldqys.vercel.app/"
                 git="https://github.com/Aristoteles-Py/Ignite-Lab-Event-Plataform"
                 />
             </div>

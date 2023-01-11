@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage:{
-        icons: 'url(./src/assets/doodleitems.png)',
+        icons: 'url(.././src/assets/doodleitems.png)',
       },
       backgroundColor:{
         gold:{

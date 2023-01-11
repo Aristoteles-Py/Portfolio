@@ -33,7 +33,7 @@ function Header(){
                             </a>
                         </li>
                         <li>
-                            <a href="https://wa.me/qr/HBEXKQG73VXAE1">
+                            <a href="https://api.whatsapp.com/send/?phone=5587981152947&text&type=phone_number&app_absent=0">
                                 <WhatsappLogo 
                                 className="hover:text-green-600"
                                 size={32}/>
